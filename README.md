@@ -57,14 +57,11 @@ portfolio-web-app/
 ## Contributions
 Contributions, issues, and feature requests are welcome. Feel free to fork this repository and submit pull requests.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 - Special thanks to the creators of the libraries and tools used in this project.
 
 ## Contact
 Feel free to connect with me:
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Email**: manikpurilucky218@gmail.com
+- **GitHub**: [lucky001118]((https://github.com/lucky001118))
+- **LinkedIn**: [lucky_manikpuri]((https://www.linkedin.com/in/lucky-manikpuri-49804927b/))
