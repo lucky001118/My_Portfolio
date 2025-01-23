@@ -30,7 +30,7 @@ export default function Projects() {
             />
             <motion.div
             initial={{opacity:0}}
-            whileHover={{opacity:1}}
+            whileHover={{opacity:100}}
             transition={{duration:0.5}} 
             className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
                 <h3 className="mb-2 text-xl ">{Projects.name}</h3>
