@@ -63,5 +63,5 @@ Contributions, issues, and feature requests are welcome. Feel free to fork this 
 ## Contact
 Feel free to connect with me:
 - **Email**: manikpurilucky218@gmail.com
-- **GitHub**: [lucky001118]((https://github.com/lucky001118))
-- **LinkedIn**: [lucky_manikpuri]((https://www.linkedin.com/in/lucky-manikpuri-49804927b/))
+- **GitHub**: [lucky001118](https://github.com/lucky001118)
+- **LinkedIn**: [lucky_manikpuri](https://www.linkedin.com/in/lucky-manikpuri-49804927b/)
