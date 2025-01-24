@@ -28,6 +28,7 @@ export const NAVIGATION_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#work" },
   { label: "Education", href: "#education" },
+  { label: "activity", href: "#activity" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -53,7 +54,7 @@ export const PROJECTS = [
     description:
       "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
-    githubLink: "https://github.com/lucky001118/Task_management_system",
+    githubLink: "https://github.com/lucky001118/MovieRecommendation_System",
   },
   {
     id: 3,
@@ -67,7 +68,7 @@ export const PROJECTS = [
     id: 4,
     name: "Smart Contact Manager",
     description:
-      "A smart contact manager built with Spring Boot to store and manage contacts, featuring secure authentication, multi-login options, email/SMS integration, and admin role management for efficient contact handling.",
+      "A smart contact manager built with Spring Boot MVC architecture to store and manage contacts, featuring secure authentication, multi-login options, email/SMS integration, and admin role management for efficient contact handling.",
     image: projectImage4,
     githubLink: "https://github.com/lucky001118/Smart_Contact_Manager",
   },
@@ -83,7 +84,7 @@ export const PROJECTS = [
     id: 6,
     name: "Library Management System",
     description:
-      "A library management system built with Spring Boot microservices to manage book inventory, issue/return records, user accounts, and admin functionalities for efficient library operations.",
+      "A library management system built with Java and MySQL and JDBC to manage book inventory, issue/return records, user accounts, and admin functionalities for efficient library operations.",
     image: projectImage6,
     githubLink: "https://github.com/lucky001118/JDBC_Project_LMS",
   },

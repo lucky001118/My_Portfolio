@@ -41,7 +41,8 @@ export default function Hero() {
         </div>
       </motion.div>
 
-{/* button */}
+<div className="flex items-center justify-center gap-10 w-full">
+  {/* button */}
 <div className="flex items-center justify-center gap-10 w-full">
       <motion.div
       className="flex items-center justify-center mt-10"
@@ -51,7 +52,7 @@ export default function Hero() {
     >
       
       <motion.a
-        href=""
+        href="/certificates"
         className="relative inline-block px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300"
         whileHover={{
           scale: 1.1,
@@ -63,8 +64,38 @@ export default function Hero() {
         }}
       >
         <Link to="/certificates">
-        Certificate
+        Certificates
         </Link>
+      </motion.a>
+
+    </motion.div>
+
+      </div>
+      
+
+{/* button */}
+{/* button for download the resume PDF */}
+<div className="flex items-center justify-center gap-10 w-full">
+      <motion.div
+      className="flex items-center justify-center mt-10"
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.8 }}
+    >
+      
+      <motion.a
+        href="/downloadResume"
+        className="relative inline-block px-8 py-4 text-lg font-semibold text-white bg-indigo-500 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300"
+        whileHover={{
+          scale: 1.1,
+          rotate: -5,
+          transition: { duration: 0.3 },
+        }}
+        whileTap={{
+          scale: 0.95,
+        }}
+      >
+        Resume
        
         {/* Floating Animated Icon */}
         <motion.span
@@ -84,7 +115,8 @@ export default function Hero() {
     </motion.div>
 
       </div>
-      
+</div>
+
     </section>
   );
 }

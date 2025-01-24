@@ -17,36 +17,30 @@ const certifications = [
       image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737665026/Hibernate_JPA_gnvhxk.jpg",
       link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737665026/Hibernate_JPA_gnvhxk.jpg",
     },
+    
     {
       id: 3,
-      title: "Flipcart grid",
-      organization: "Flip cart",
-      image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737667039/Flipcart_Grid_5.0_certificate_htuued.jpg",
-      link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737667039/Flipcart_Grid_5.0_certificate_htuued.jpg",
-    },
-    {
-      id: 4,
       title: "IBM Designe Thinking",
       organization: "IBM",
       image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737710352/Lucky_Manikpuri_IBM_Certificate___SkillsBuild_page-0001_kewqnj.jpg",
       link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737710352/Lucky_Manikpuri_IBM_Certificate___SkillsBuild_page-0001_kewqnj.jpg",
     },
     {
-      id: 5,
+      id: 4,
       title: "Web Designe and Development",
       organization: "Skill India",
       image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737710372/Web_development_by_Skill_India_Certificate_page-0001_rfmr7j.jpg",
       link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737710372/Web_development_by_Skill_India_Certificate_page-0001_rfmr7j.jpg",
     },
     {
-      id: 6,
+      id: 5,
       title: "Data Structure and Algorithum",
       organization: "Udemy",
       image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737715850/Data_Structure_Java_zobyfs.jpg",
       link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737715850/Data_Structure_Java_zobyfs.jpg",
     },
     {
-      id: 7,
+      id: 6,
       title: "Java Deep Learning Introduction",
       organization: "Udemy",
       image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737715865/DeepLearning_Java_sv0r17.jpg",
@@ -158,19 +152,6 @@ export default function CertificationPage() {
         }}
       >
         Back
-        {/* Floating Animated Icon */}
-        <motion.span
-          className="absolute bottom-0 right-0 flex items-center justify-center w-5 h-5 text-sm text-indigo-600 bg-white rounded-full"
-          initial={{ y: -10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{
-            repeat: Infinity,
-            repeatType: "reverse",
-            duration: 1,
-          }}
-        >
-          ↓
-        </motion.span>
       </motion.a>
     </motion.div>
   </div>

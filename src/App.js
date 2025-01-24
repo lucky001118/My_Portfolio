@@ -10,6 +10,8 @@ import ContactForm from "./Pages/ContactForm";
 import Footer from "./Pages/Footer";
 import { BrowserRouter ,Route, Routes } from "react-router-dom";
 import CertificationPage from "./Pages/CertificationPage";
+import OtherActivity from "./Pages/OtherActivity";
+import Achivements from "./Pages/Achivements";
 
 function App() {
   return (
@@ -29,6 +31,11 @@ function App() {
         <Skills />
         <WorkExperience />
         <Education />
+        <OtherActivity>
+        </OtherActivity>
+        <Routes>
+          <Route  path="/Activity" element ={<Achivements />} />
+        </Routes>
         <ContactForm />
         <Footer />
         {/* <CertificationPage /> */}
