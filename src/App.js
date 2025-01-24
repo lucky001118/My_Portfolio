@@ -8,14 +8,22 @@ import WorkExperience from "./Pages/WorkExperience";
 import Education from "./Pages/Education";
 import ContactForm from "./Pages/ContactForm";
 import Footer from "./Pages/Footer";
+import { BrowserRouter ,Route, Routes } from "react-router-dom";
+import CertificationPage from "./Pages/CertificationPage";
 
 function App() {
   return (
     <div className=" relative h-full overflow-y-auto antialiased">
       <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img"></div>
         <div className="relative z-10 flex-col items-center p-4 space-y-8 container mx-auto">
+       
+        {/* <Demo /> */}
+        <BrowserRouter>
         <Hero />
         <Navbar />
+        <Routes>
+          <Route  path="/certificates" element ={<CertificationPage />} />
+        </Routes>
         <Projects />
         <Bio />
         <Skills />
@@ -23,7 +31,9 @@ function App() {
         <Education />
         <ContactForm />
         <Footer />
-        {/* <Demo /> */}
+        {/* <CertificationPage /> */}
+
+        </BrowserRouter>
         </div>
       </div>
   );

@@ -2,10 +2,11 @@ import React from "react";
 import { HERO } from "../constants";
 import carlImg from "../assets/carl.jpeg";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-screen flex-wrap items-center">
+    <section className="flex mt-14 min-h-screen flex-wrap items-center">
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -39,6 +40,51 @@ export default function Hero() {
           />
         </div>
       </motion.div>
+
+{/* button */}
+<div className="flex items-center justify-center gap-10 w-full">
+      <motion.div
+      className="flex items-center justify-center mt-10"
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.8 }}
+    >
+      
+      <motion.a
+        href=""
+        className="relative inline-block px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300"
+        whileHover={{
+          scale: 1.1,
+          rotate: 5,
+          transition: { duration: 0.3 },
+        }}
+        whileTap={{
+          scale: 0.95,
+        }}
+      >
+        <Link to="/certificates">
+        Certificate
+        </Link>
+       
+        {/* Floating Animated Icon */}
+        <motion.span
+          className="absolute bottom-0 right-0 flex items-center justify-center w-5 h-5 text-sm text-indigo-600 bg-white rounded-full"
+          initial={{ y: -10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{
+            repeat: Infinity,
+            repeatType: "reverse",
+            duration: 1,
+          }}
+        >
+          ↓
+        </motion.span>
+      </motion.a>
+
+    </motion.div>
+
+      </div>
+      
     </section>
   );
 }
