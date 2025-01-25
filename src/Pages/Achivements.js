@@ -16,9 +16,9 @@ const achievements = [
   {
     title: "Curriculars",
     description: [
-      "Secure Second Position in Dum Sarj at CSIT.",
+      "Secure Second Position in Dumb Charades at CSIT.",
       "Secure First Position in Seven Stone at CSIT.",
-      "Organize a hackathon 'Byte Battle' at CSIT."
+      
     ],
     icon: "🚀",
   },
@@ -45,16 +45,66 @@ const achievements = [
     ],
     icon: "🏆",
   },
+  {
+    title: "Organizer",
+    description: [
+      "Organize a hackathon 'Byte Battle' at CSIT.",
+      "Organize a coding compitation 'Code Crunch' in laqchya at CSIT"
+    ],
+    icon: "📌",
+  },
 ];
 
 //   Certificates
 const certifications = [
   {
     id: 1,
+    title: "2nd Position at Code Art",
+    organization: "Project base hackathon",
+    image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826918/Image_1901_zbjtbm.jpg",
+    link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826918/Image_1901_zbjtbm.jpg",
+  },
+  {
+    id: 2,
     title: "Flipcart grid",
     organization: "Flip cart",
     image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737667039/Flipcart_Grid_5.0_certificate_htuued.jpg",
     link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737667039/Flipcart_Grid_5.0_certificate_htuued.jpg",
+  },
+  {
+    id: 3,
+    title: "Orgnizing the Hackathon",
+    organization: "Byte Battle",
+    image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826909/Image_1903_yjhizb.jpg",
+    link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826909/Image_1903_yjhizb.jpg",
+  },
+  {
+    id: 4,
+    title: "Participate in web desining hackathon",
+    organization: "Code Art",
+    image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826917/Image_1902_mlr3ih.jpg",
+    link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826917/Image_1902_mlr3ih.jpg",
+  },
+  {
+    id: 5,
+    title: "Participate in a hackathon",
+    organization: "Web Development",
+    image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826912/Image_1900_gtw0tc.jpg",
+    link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826912/Image_1900_gtw0tc.jpg",
+  },
+  {
+    id: 6,
+    title: "2nd position in Dumb Charades",
+    organization: "Game at Laqchya, CSIT",
+    image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826910/Image_661_punmq4.jpg",
+    link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826910/Image_661_punmq4.jpg",
+  },
+  {
+    id: 7,
+    title: "Participate in Bottel Jet",
+    organization: "Bottle Roket game in laqchya, CSIT",
+    image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826919/Image_1904_rsowtk.jpg",
+    link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826919/Image_1904_rsowtk.jpg",
   },
   // Add more certifications as needed
 ];

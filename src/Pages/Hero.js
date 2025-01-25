@@ -84,7 +84,8 @@ export default function Hero() {
     >
       
       <motion.a
-        href="/downloadResume"
+        href="/resume.pdf"
+        download="Lucky_Manikpur_Resume.pdf"
         className="relative inline-block px-8 py-4 text-lg font-semibold text-white bg-indigo-500 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300"
         whileHover={{
           scale: 1.1,

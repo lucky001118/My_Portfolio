@@ -46,6 +46,27 @@ const certifications = [
       image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737715865/DeepLearning_Java_sv0r17.jpg",
       link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737715865/DeepLearning_Java_sv0r17.jpg",
     },
+    {
+      id: 7,
+      title: "Spring Boot",
+      organization: "Seed IT Solution",
+      image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737827582/SpringBoot_rm8vqn.jpg",
+      link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737827582/SpringBoot_rm8vqn.jpg",
+    },
+    {
+      id: 8,
+      title: "Java Full Stack",
+      organization: "Seed IT Solution",
+      image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737827582/Java_Full_Stack_tbt3fr.jpg",
+      link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737827582/Java_Full_Stack_tbt3fr.jpg",
+    },
+    {
+      id: 9,
+      title: "Artificial Inteligence and Machine Learning",
+      organization: "Ardent Technology",
+      image: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826900/Image_1899_enx9uf.jpg",
+      link: "https://res.cloudinary.com/drdgniolx/image/upload/v1737826900/Image_1899_enx9uf.jpg",
+    },
     // Add more certifications as needed
   ];
 
