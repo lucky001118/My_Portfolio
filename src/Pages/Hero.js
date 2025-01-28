@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO } from "../constants";
-import carlImg from "../assets/carl.jpeg";
+import carlImg from "../assets/carl.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
